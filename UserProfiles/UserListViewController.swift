@@ -15,7 +15,7 @@ class UserListViewController: UIViewController  , AddProfileData{
         filteredProfiel = profile
         entireTable.reloadData()
     }
-    
+    var isAdded:Bool?
     var filteredProfiel = [ProfileModel]()
     var profile = [ProfileModel]()
     var sendProfile : [String] = []
