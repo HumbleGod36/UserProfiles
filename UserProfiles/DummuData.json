@@ -1,0 +1,29 @@
+[
+    {
+        "profile_image": "",
+        "profile_image_url": "https://i.ibb.co/rM41Gfq/dice1.png",
+        "your_name": "Tony Michael",
+        "phone": "9511891708",
+        "birthday": "08/01/1999",
+        "is_male": true,
+        "notes": "Notes"
+    },
+    {
+        "profile_image": "",
+        "profile_image_url": "https://i.ibb.co/ZhJb6MG/blue-wall-background-53876-88663.jpg",
+        "your_name": "Isha Dhavaskar",
+        "phone": "9226857992",
+        "birthday": "12/09/1995",
+        "is_male": true,
+        "notes": "Notes"
+    },
+    {
+        "profile_image": "",
+        "profile_image_url": "https://i.ibb.co/VmxpKz9/360-F-329191596-t-RQi-V7-LZj-TZtu-PM09-Qy-OS09-HV1-D9-Vim-E.jpg",
+        "your_name": "Nilesh Warad",
+        "phone": "9511891708",
+        "birthday": "25/03/1999",
+        "is_male": true,
+        "notes": "Notes"
+    }
+]

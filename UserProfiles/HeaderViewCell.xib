@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderViewCell" customModule="UserProfiles" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="92"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dkG-jv-i2K">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="92"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ahq-3A-Jme">
+                            <rect key="frame" x="8" y="35.333333333333336" width="544" height="21.666666666666664"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Ahq-3A-Jme" secondAttribute="trailing" constant="16" id="3Z7-xE-izm"/>
+                        <constraint firstItem="Ahq-3A-Jme" firstAttribute="leading" secondItem="dkG-jv-i2K" secondAttribute="leading" constant="8" id="G55-hK-NLr"/>
+                        <constraint firstItem="Ahq-3A-Jme" firstAttribute="centerY" secondItem="dkG-jv-i2K" secondAttribute="centerY" id="t0m-cL-kgU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dkG-jv-i2K" secondAttribute="trailing" id="TWb-1k-65i"/>
+                <constraint firstAttribute="bottom" secondItem="dkG-jv-i2K" secondAttribute="bottom" id="Uhh-tv-zyU"/>
+                <constraint firstItem="dkG-jv-i2K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lMb-ry-Rge"/>
+                <constraint firstItem="dkG-jv-i2K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rmR-7g-Tqe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="headerLabel" destination="Ahq-3A-Jme" id="KFd-U3-VaW"/>
+            </connections>
+            <point key="canvasLocation" x="264.12213740458014" y="49.295774647887328"/>
+        </view>
+    </objects>
+</document>

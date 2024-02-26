@@ -1,0 +1,6 @@
+framework module Pods_UserProfiles {
+  umbrella header "Pods-UserProfiles-umbrella.h"
+
+  export *
+  module * { export * }
+}
